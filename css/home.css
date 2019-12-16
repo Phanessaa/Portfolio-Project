@@ -1,0 +1,335 @@
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html{
+        background-color: rgb(16, 16, 36);
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .a{
+        text-decoration: none;
+            color: antiquewhite;
+            display: inline-block;
+            font-size: 20px;
+            list-style-type: none;
+            margin: 0;
+          padding: 0;
+          overflow: hidden;
+          width: 100%;
+          text-align: center;
+          position: relative;
+          z-index: 1;
+ }
+    :hover > a{
+        color:white;
+        background-color: rgb(16, 16, 36);
+    }
+    li {
+        float: right;
+        text-decoration: none;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(231, 228, 228);
+        text-shadow: black 4px 5px 3px;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;}
+    .b{
+        bottom: 57px;
+        z-index: -3;
+        position: relative;
+     width: 100%;
+    }
+    .c{
+        z-index: -3;
+        position: relative;
+        bottom: 320px;
+        left: 70px;
+       
+    }
+    .d{
+        bottom: 735px;
+        left: 10px;
+        position: relative;
+        z-index: 2;
+        height: 50px;
+         width: 50px;
+    }
+    .e{
+        bottom: 675px;
+        left: -45px;
+        position: relative;
+        z-index: 2;
+        height: 50px;
+         width: 50px;
+    }
+    .f{
+        bottom: 610px;
+        left: -98px;
+        position: relative;
+        z-index: 2;
+        height: 50px;
+        width: 50px;
+    }
+    .g{
+        bottom: 535px;
+        left: -165px;
+        position: relative;
+        z-index: 2;
+        height: 70px;
+        width: 70px;
+    }
+   
+      
+      .h {
+        background-color: rgb(16, 16, 46);
+        width: 100%;
+        height: 200px;
+        border: 1px solid rgb(16, 16, 36);
+        perspective: 600px;
+        bottom: 450px;
+        left: 0px;
+        position: relative;
+        z-index: 2;
+
+      }
+      
+      .h-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.8s;
+        transform-style: preserve-3d;
+      }
+      
+      .h:hover .h-inner {
+        transform: rotateY(180deg);
+      }
+      
+      .h-front, .h-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        backface-visibility: hidden;
+      }
+      
+      .h-front {
+        background-color: #bbb;
+        color: black;
+      }
+      
+      .h-back {
+        background-color: #555;
+        color: white;
+        transform: rotateY(180deg);
+      }
+
+p{
+    color: rgb(231, 228, 228);
+    font-size: 20px;
+    position: relative;
+    bottom: 520px;
+    text-align: center;
+    padding-left: 36%;
+    padding-right: 5%;
+    text-shadow: black 4px 5px 3px;
+}
+}
+
+  
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html{
+        background-color: rgb(16, 16, 36);
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .a{
+        text-decoration: none;
+            color: antiquewhite;
+            display: inline-block;
+            font-size: 26px;
+            list-style-type: none;
+            margin: 0;
+          padding: 0;
+          overflow: hidden;
+          width: 100%;
+          text-align: center;
+          position: relative;
+          z-index: 1;
+ }
+    :hover > a{
+        color:white;
+        background-color: rgb(16, 16, 36);
+    }
+    li {
+        float: right;
+        text-decoration: none;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(231, 228, 228);
+        text-shadow: black 4px 5px 3px;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;}
+    .b{
+        bottom: 65px;
+        z-index: -3;
+        position: relative;
+     width: 100%;
+     height: 395px;
+    }
+    .c{
+        z-index: -3;
+        position: relative;
+        bottom: 420px;
+        left: 94px;
+        width: 260px;
+       height: 350px;
+    }
+    .d{
+        bottom: 920px;
+        left: 15px;
+        position: relative;
+        z-index: 2;
+        height: 70px;
+         width: 70px;
+    }
+    .e{
+        bottom: 825px;
+        left: -60px;
+        position: relative;
+        z-index: 2;
+        height: 70px;
+         width: 70px;
+    }
+    .f{
+        bottom: 730px;
+        left: -135px;
+        position: relative;
+        z-index: 2;
+        height: 70px;
+         width: 70px;
+    }
+    .g{
+        bottom: 630px;
+        left: -225px;
+        position: relative;
+        z-index: 2;
+        height: 90px;
+         width: 90px;
+    }
+div{
+    color: rgb(231, 228, 228);
+    font-size: 26px;
+    position: relative;
+    bottom: 660px;
+    text-align: center;
+    padding-left: 36%;
+    padding-right: 5%;
+    text-shadow: black 4px 5px 3px;
+}
+    
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    html{
+        background-color: rgb(16, 16, 36);
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .a{
+        text-decoration: none;
+            color: antiquewhite;
+            display: inline-block;
+            font-size: 36px;
+            list-style-type: none;
+            margin: 0;
+          padding: 0;
+          overflow: hidden;
+          width: 100%;
+          text-align: center;
+          position: relative;
+          z-index: 1;
+ }
+    :hover > a{
+        color:white;
+        background-color: rgb(16, 16, 36);
+    }
+    li {
+        float: right;
+        text-decoration: none;
+      }
+      
+      li a {
+        display: block;
+        color: rgb(231, 228, 228);
+        text-shadow: black 4px 5px 3px;
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;}
+    .b{
+        bottom: 70px;
+        z-index: -3;
+        position: relative;
+     width: 100%;
+     height: 600px;
+    }
+    .c{
+        z-index: -3;
+        position: relative;
+        bottom: 620px;
+        left: 170px;
+        width: 300px;
+        height: 540px;
+       
+    }
+    .d{
+        bottom: 1320px;
+        left: 20px;
+        position: relative;
+        z-index: 2;
+        height: 100px;
+         width: 100px;
+    }
+    .e{
+        bottom: 1185px;
+        left: -85px;
+        position: relative;
+        z-index: 2;
+        height: 100px;
+         width: 100px;
+    }
+    .f{
+        bottom: 1050px;
+        left: -190px;
+        position: relative;
+        z-index: 2;
+        height: 100px;
+         width: 100px;
+    }
+    .g{
+        bottom: 900px;
+        left: -310px;
+        position: relative;
+        z-index: 2;
+        height: 115px;
+         width: 115px;
+    }
+div{
+    color: rgb(231, 228, 228);
+    font-size: 35px;
+    position: relative;
+    bottom: 1010px;
+    text-align: center;
+    padding-left: 36%;
+    padding-right: 5%;
+    text-shadow: black 4px 5px 3px;
+}
+}
