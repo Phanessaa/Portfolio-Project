@@ -1,6 +1,6 @@
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
     html{
         background-image: url(../images/lake.jpg);
         background-size: 330px 180px;
